@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100vh;    
+}
+
+.container {
+    background-color: bisque;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px red;
+}
+
+.parent {
+    background-color: #0d9488;
+    height: 200px;
+    width: 200px;
+    border: solid 1px red;
+}
+
+.child {
+    background-color: #9f1239;
+    height: 200px;
+    width: 200px;
+    border: solid 1px red;
+}
